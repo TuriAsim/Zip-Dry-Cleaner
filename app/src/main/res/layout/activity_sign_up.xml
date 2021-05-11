@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/toolbar"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/signup_toolbar"
+                layout="@layout/toolbar_layout"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/zipslogo"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            >
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/firstname"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:background="@drawable/spinnerback"
+                android:hint="Enter FirstName"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/lastname"
+                android:layout_marginTop="10dp"
+                android:hint="Enter LastName"
+                android:textColor="#000"
+                android:background="@drawable/spinnerback"
+                android:layout_below="@+id/usrname"
+                android:layout_alignLeft="@+id/usrname"
+                android:layout_alignStart="@+id/usrname" />
+
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/email"
+                android:background="@drawable/spinnerback"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Email"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/password"
+                android:background="@drawable/spinnerback"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Password"
+                />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/cellno"
+                android:background="@drawable/spinnerback"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:inputType="number"
+                android:layout_marginTop="10dp"
+                android:hint="Enter CellNO"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/spinnerback"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/selectid"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+                android:spinnerMode="dropdown" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:src="@mipmap/chevrondown" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <Button
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:id="@+id/login"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_below="@+id/checkBox"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="185dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:text="By entering you agree to our Terms and Privacy Policy"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

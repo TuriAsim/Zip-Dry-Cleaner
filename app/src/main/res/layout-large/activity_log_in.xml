@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/toolbar"
+    >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/login_toolbar"
+            layout="@layout/toolbar_layout"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/zipslogo"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:id="@+id/username"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            android:background="@drawable/spinnerback"
+            android:hint="Enter Email"
+            />
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:id="@+id/password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:background="@drawable/spinnerback"
+            android:hint="Enter Password"
+            android:textColor="#000"
+            android:layout_below="@+id/usrname"
+            android:layout_alignLeft="@+id/usrname"
+            android:layout_alignStart="@+id/usrname" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Password"
+            android:id="@+id/savebox"
+            android:layout_below="@+id/password"
+            android:layout_alignLeft="@+id/password"
+            android:layout_alignStart="@+id/password" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="LOGIN"
+            android:layout_below="@+id/login"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+             />
+
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+                android:text="Log In"
+    android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginRight="5dp"
+            android:text="Not Registered?"/>
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#00F"
+            android:text="Registered Now"/>
+
+    </LinearLayout>
+-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="12dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="By entering you agree to our Terms and Privacy Policy"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>

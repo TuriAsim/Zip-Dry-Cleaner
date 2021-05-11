@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="#f00"
+            android:text="Last name"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/spinnerback"
+            android:textStyle="bold"
+            android:id="@+id/lastname"/>
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="#f00"
+            android:text="First name"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/spinnerback"
+            android:textStyle="bold"
+            android:id="@+id/firstname"/>
+        <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="#f00"
+        android:text="email"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/spinnerback"
+        android:textStyle="bold"
+        android:id="@+id/email"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="#f00"
+            android:text="phone"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/spinnerback"
+            android:textStyle="bold"
+            android:id="@+id/hphone"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="#f00"
+            android:text="address"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/spinnerback"
+            android:textStyle="bold"
+            android:id="@+id/address"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="#f00"
+            android:text="zips"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/spinnerback"
+            android:textStyle="bold"
+            android:id="@+id/zips"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="#f00"
+            android:text="prepaidbil"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/spinnerback"
+            android:textStyle="bold"
+            android:id="@+id/prepaidbil"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="#f00"
+            android:text="creditinfo"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/spinnerback"
+            android:textStyle="bold"
+            android:id="@+id/creditinfo"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
